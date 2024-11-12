@@ -1,0 +1,18 @@
+{"time":"2024-10-23T10:15:40.061979+05:30","level":"INFO","msg":"using version","core version":"0.18.3"}
+{"time":"2024-10-23T10:15:40.06204+05:30","level":"INFO","msg":"created symlink","path":"/Users/shivanshuchauhan/Desktop/Vehicle-Detection-main/wandb/run-20241023_101540-17jurupe/logs/debug-core.log"}
+{"time":"2024-10-23T10:15:40.065542+05:30","level":"ERROR","msg":"dialing: google: could not find default credentials. See https://cloud.google.com/docs/authentication/external/set-up-adc for more information"}
+{"time":"2024-10-23T10:15:40.073352+05:30","level":"INFO","msg":"created new stream","id":"17jurupe"}
+{"time":"2024-10-23T10:15:40.073388+05:30","level":"INFO","msg":"stream: started","id":"17jurupe"}
+{"time":"2024-10-23T10:15:40.073389+05:30","level":"INFO","msg":"handler: started","stream_id":{"value":"17jurupe"}}
+{"time":"2024-10-23T10:15:40.073428+05:30","level":"INFO","msg":"writer: Do: started","stream_id":{"value":"17jurupe"}}
+{"time":"2024-10-23T10:15:40.07341+05:30","level":"INFO","msg":"sender: started","stream_id":{"value":"17jurupe"}}
+{"time":"2024-10-23T10:15:41.16015+05:30","level":"INFO","msg":"wandb-core","!BADKEY":null}
+{"time":"2024-10-23T10:15:41.161025+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2024-10-23T10:15:41.804584+05:30","level":"INFO","msg":"stream: closing","id":"17jurupe"}
+{"time":"2024-10-23T10:15:41.804794+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2024-10-23T10:15:41.804845+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2024-10-23T10:15:48.125536+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2024-10-23T10:15:48.653891+05:30","level":"INFO","msg":"handler: closed","stream_id":{"value":"17jurupe"}}
+{"time":"2024-10-23T10:15:48.653907+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":{"value":"17jurupe"}}
+{"time":"2024-10-23T10:15:48.653915+05:30","level":"INFO","msg":"sender: closed","stream_id":{"value":"17jurupe"}}
+{"time":"2024-10-23T10:15:48.654193+05:30","level":"INFO","msg":"stream: closed","id":"17jurupe"}

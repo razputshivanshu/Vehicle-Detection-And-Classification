@@ -1,0 +1,31 @@
+{"time":"2024-10-23T10:45:58.652158+05:30","level":"INFO","msg":"using version","core version":"0.18.3"}
+{"time":"2024-10-23T10:45:58.652289+05:30","level":"INFO","msg":"created symlink","path":"/Users/shivanshuchauhan/Desktop/Vehicle-Detection-main/wandb/run-20241023_104558-6kpzapg3/logs/debug-core.log"}
+{"time":"2024-10-23T10:45:58.657263+05:30","level":"ERROR","msg":"dialing: google: could not find default credentials. See https://cloud.google.com/docs/authentication/external/set-up-adc for more information"}
+{"time":"2024-10-23T10:45:58.67049+05:30","level":"INFO","msg":"created new stream","id":"6kpzapg3"}
+{"time":"2024-10-23T10:45:58.670547+05:30","level":"INFO","msg":"stream: started","id":"6kpzapg3"}
+{"time":"2024-10-23T10:45:58.670621+05:30","level":"INFO","msg":"handler: started","stream_id":{"value":"6kpzapg3"}}
+{"time":"2024-10-23T10:45:58.670566+05:30","level":"INFO","msg":"sender: started","stream_id":{"value":"6kpzapg3"}}
+{"time":"2024-10-23T10:45:58.670555+05:30","level":"INFO","msg":"writer: Do: started","stream_id":{"value":"6kpzapg3"}}
+{"time":"2024-10-23T10:46:00.43009+05:30","level":"INFO","msg":"wandb-core","!BADKEY":null}
+{"time":"2024-10-23T10:46:00.431669+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2024-10-23T10:46:10.580661+05:30","level":"ERROR","msg":"monitor: gpu: error sampling metrics: signal: trace/BPT trap"}
+{"time":"2024-10-23T10:46:20.630816+05:30","level":"ERROR","msg":"monitor: gpu: error sampling metrics: signal: trace/BPT trap"}
+{"time":"2024-10-23T10:46:30.622844+05:30","level":"ERROR","msg":"monitor: gpu: error sampling metrics: signal: trace/BPT trap"}
+{"time":"2024-10-23T10:46:40.593713+05:30","level":"ERROR","msg":"monitor: gpu: error sampling metrics: signal: trace/BPT trap"}
+{"time":"2024-10-23T10:46:50.590687+05:30","level":"ERROR","msg":"monitor: gpu: error sampling metrics: signal: trace/BPT trap"}
+{"time":"2024-10-23T10:47:00.584918+05:30","level":"ERROR","msg":"monitor: gpu: error sampling metrics: signal: trace/BPT trap"}
+{"time":"2024-10-23T10:47:11.113778+05:30","level":"ERROR","msg":"monitor: gpu: error sampling metrics: signal: trace/BPT trap"}
+{"time":"2024-10-23T10:47:20.989698+05:30","level":"ERROR","msg":"monitor: gpu: error sampling metrics: signal: trace/BPT trap"}
+{"time":"2024-10-23T10:47:30.897165+05:30","level":"ERROR","msg":"monitor: gpu: error sampling metrics: signal: trace/BPT trap"}
+{"time":"2024-10-23T10:47:42.181979+05:30","level":"ERROR","msg":"monitor: gpu: error sampling metrics: signal: trace/BPT trap"}
+{"time":"2024-10-23T10:47:51.78402+05:30","level":"ERROR","msg":"monitor: gpu: error sampling metrics: signal: trace/BPT trap"}
+{"time":"2024-10-23T10:48:01.221135+05:30","level":"ERROR","msg":"monitor: gpu: error sampling metrics: signal: trace/BPT trap"}
+{"time":"2024-10-23T10:48:11.033195+05:30","level":"ERROR","msg":"monitor: gpu: error sampling metrics: signal: trace/BPT trap"}
+{"time":"2024-10-23T10:48:18.95964+05:30","level":"INFO","msg":"stream: closing","id":"6kpzapg3"}
+{"time":"2024-10-23T10:48:18.960696+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2024-10-23T10:48:18.961006+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2024-10-23T10:48:20.592571+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2024-10-23T10:48:21.063658+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":{"value":"6kpzapg3"}}
+{"time":"2024-10-23T10:48:21.063643+05:30","level":"INFO","msg":"handler: closed","stream_id":{"value":"6kpzapg3"}}
+{"time":"2024-10-23T10:48:21.063665+05:30","level":"INFO","msg":"sender: closed","stream_id":{"value":"6kpzapg3"}}
+{"time":"2024-10-23T10:48:21.063956+05:30","level":"INFO","msg":"stream: closed","id":"6kpzapg3"}

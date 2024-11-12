@@ -1,0 +1,22 @@
+{"time":"2024-10-23T10:12:16.94856+05:30","level":"INFO","msg":"using version","core version":"0.18.3"}
+{"time":"2024-10-23T10:12:16.948591+05:30","level":"INFO","msg":"created symlink","path":"/Users/shivanshuchauhan/Desktop/Vehicle-Detection-main/wandb/run-20241023_101216-sdqxne4z/logs/debug-core.log"}
+{"time":"2024-10-23T10:12:16.951088+05:30","level":"ERROR","msg":"dialing: google: could not find default credentials. See https://cloud.google.com/docs/authentication/external/set-up-adc for more information"}
+{"time":"2024-10-23T10:12:16.957448+05:30","level":"INFO","msg":"created new stream","id":"sdqxne4z"}
+{"time":"2024-10-23T10:12:16.957497+05:30","level":"INFO","msg":"stream: started","id":"sdqxne4z"}
+{"time":"2024-10-23T10:12:16.957512+05:30","level":"INFO","msg":"sender: started","stream_id":{"value":"sdqxne4z"}}
+{"time":"2024-10-23T10:12:16.957501+05:30","level":"INFO","msg":"writer: Do: started","stream_id":{"value":"sdqxne4z"}}
+{"time":"2024-10-23T10:12:16.957553+05:30","level":"INFO","msg":"handler: started","stream_id":{"value":"sdqxne4z"}}
+{"time":"2024-10-23T10:12:17.901902+05:30","level":"INFO","msg":"wandb-core","!BADKEY":null}
+{"time":"2024-10-23T10:12:17.903316+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2024-10-23T10:12:28.307592+05:30","level":"ERROR","msg":"monitor: gpu: error sampling metrics: signal: trace/BPT trap"}
+{"time":"2024-10-23T10:12:32.901576+05:30","level":"INFO","msg":"stream: closing","id":"sdqxne4z"}
+{"time":"2024-10-23T10:12:38.008469+05:30","level":"ERROR","msg":"monitor: gpu: error sampling metrics: signal: trace/BPT trap"}
+{"time":"2024-10-23T10:12:48.015668+05:30","level":"ERROR","msg":"monitor: gpu: error sampling metrics: signal: trace/BPT trap"}
+{"time":"2024-10-23T10:12:48.148451+05:30","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": net/http: request canceled (Client.Timeout exceeded while awaiting headers)"}
+{"time":"2024-10-23T10:12:51.484349+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2024-10-23T10:12:51.48443+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2024-10-23T10:12:52.98861+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2024-10-23T10:12:53.491193+05:30","level":"INFO","msg":"handler: closed","stream_id":{"value":"sdqxne4z"}}
+{"time":"2024-10-23T10:12:53.491236+05:30","level":"INFO","msg":"sender: closed","stream_id":{"value":"sdqxne4z"}}
+{"time":"2024-10-23T10:12:53.491218+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":{"value":"sdqxne4z"}}
+{"time":"2024-10-23T10:12:53.491649+05:30","level":"INFO","msg":"stream: closed","id":"sdqxne4z"}

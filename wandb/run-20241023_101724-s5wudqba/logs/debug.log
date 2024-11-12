@@ -1,0 +1,27 @@
+2024-10-23 10:17:24,313 INFO    MainThread:42775 [wandb_setup.py:_flush():79] Current SDK version is 0.18.3
+2024-10-23 10:17:24,313 INFO    MainThread:42775 [wandb_setup.py:_flush():79] Configure stats pid to 42775
+2024-10-23 10:17:24,313 INFO    MainThread:42775 [wandb_setup.py:_flush():79] Loading settings from /Users/shivanshuchauhan/.config/wandb/settings
+2024-10-23 10:17:24,313 INFO    MainThread:42775 [wandb_setup.py:_flush():79] Loading settings from /Users/shivanshuchauhan/Desktop/Vehicle-Detection-main/wandb/settings
+2024-10-23 10:17:24,313 INFO    MainThread:42775 [wandb_setup.py:_flush():79] Loading settings from environment variables: {}
+2024-10-23 10:17:24,313 INFO    MainThread:42775 [wandb_setup.py:_flush():79] Applying setup settings: {'mode': None, '_disable_service': None}
+2024-10-23 10:17:24,313 INFO    MainThread:42775 [wandb_setup.py:_flush():79] Inferring run settings from compute environment: {'program_relpath': 'Desktop/Vehicle-Detection-main/train.py', 'program_abspath': '/Users/shivanshuchauhan/Desktop/Vehicle-Detection-main/train.py', 'program': '/Users/shivanshuchauhan/Desktop/Vehicle-Detection-main/train.py'}
+2024-10-23 10:17:24,313 INFO    MainThread:42775 [wandb_setup.py:_flush():79] Applying login settings: {}
+2024-10-23 10:17:24,313 INFO    MainThread:42775 [wandb_init.py:_log_setup():532] Logging user logs to /Users/shivanshuchauhan/Desktop/Vehicle-Detection-main/wandb/run-20241023_101724-s5wudqba/logs/debug.log
+2024-10-23 10:17:24,313 INFO    MainThread:42775 [wandb_init.py:_log_setup():533] Logging internal logs to /Users/shivanshuchauhan/Desktop/Vehicle-Detection-main/wandb/run-20241023_101724-s5wudqba/logs/debug-internal.log
+2024-10-23 10:17:24,314 INFO    MainThread:42775 [wandb_init.py:init():617] calling init triggers
+2024-10-23 10:17:24,314 INFO    MainThread:42775 [wandb_init.py:init():624] wandb.init called with sweep_config: {}
+config: {'weights': 'yolov5m.pt', 'cfg': '', 'data': 'dataset.yaml', 'hyp': {'lr0': 0.01, 'lrf': 0.2, 'momentum': 0.937, 'weight_decay': 0.0005, 'warmup_epochs': 3.0, 'warmup_momentum': 0.8, 'warmup_bias_lr': 0.1, 'box': 0.05, 'cls': 0.5, 'cls_pw': 1.0, 'obj': 1.0, 'obj_pw': 1.0, 'iou_t': 0.2, 'anchor_t': 4.0, 'fl_gamma': 0.0, 'hsv_h': 0.015, 'hsv_s': 0.7, 'hsv_v': 0.4, 'degrees': 0.0, 'translate': 0.1, 'scale': 0.5, 'shear': 0.0, 'perspective': 0.0, 'flipud': 0.0, 'fliplr': 0.5, 'mosaic': 1.0, 'mixup': 0.0, 'copy_paste': 0.0}, 'epochs': 50, 'batch_size': 16, 'imgsz': 640, 'rect': False, 'resume': False, 'nosave': False, 'noval': False, 'noautoanchor': False, 'evolve': None, 'bucket': '', 'cache': None, 'image_weights': False, 'device': '', 'multi_scale': False, 'single_cls': False, 'adam': False, 'sync_bn': False, 'workers': 8, 'project': 'runs/train', 'entity': None, 'name': 'exp', 'exist_ok': False, 'quad': False, 'linear_lr': False, 'label_smoothing': 0.0, 'upload_dataset': False, 'bbox_interval': -1, 'save_period': -1, 'artifact_alias': 'latest', 'local_rank': -1, 'freeze': 0, 'patience': 30, 'save_dir': 'runs/train/exp18'}
+2024-10-23 10:17:24,314 INFO    MainThread:42775 [wandb_init.py:init():667] starting backend
+2024-10-23 10:17:24,314 INFO    MainThread:42775 [wandb_init.py:init():671] sending inform_init request
+2024-10-23 10:17:24,317 INFO    MainThread:42775 [backend.py:_multiprocessing_setup():104] multiprocessing start_methods=spawn,fork,forkserver, using: spawn
+2024-10-23 10:17:24,317 INFO    MainThread:42775 [wandb_init.py:init():684] backend started and connected
+2024-10-23 10:17:24,327 INFO    MainThread:42775 [wandb_init.py:init():779] updated telemetry
+2024-10-23 10:17:24,344 INFO    MainThread:42775 [wandb_init.py:init():812] communicating run to backend with 90.0 second timeout
+2024-10-23 10:17:25,420 INFO    MainThread:42775 [wandb_init.py:init():863] starting run threads in backend
+2024-10-23 10:17:25,630 INFO    MainThread:42775 [wandb_run.py:_console_start():2465] atexit reg
+2024-10-23 10:17:25,630 INFO    MainThread:42775 [wandb_run.py:_redirect():2313] redirect: wrap_raw
+2024-10-23 10:17:25,630 INFO    MainThread:42775 [wandb_run.py:_redirect():2378] Wrapping output streams.
+2024-10-23 10:17:25,630 INFO    MainThread:42775 [wandb_run.py:_redirect():2403] Redirects installed.
+2024-10-23 10:17:25,632 INFO    MainThread:42775 [wandb_init.py:init():907] run started, returning control to user process
+2024-10-23 10:17:25,633 INFO    MainThread:42775 [wandb_run.py:_config_callback():1394] config_cb None None {'data_dict': {'path': 'Dataset/dataset-vehicles', 'train': 'Dataset/dataset-vehicles/images/train', 'val': 'Dataset/dataset-vehicles/images/val', 'test': None, 'nc': 5, 'names': ['Car', 'Motorcycle', 'Truck', 'Bus', 'Bicycle']}}
+2024-10-23 10:18:31,853 WARNING MsgRouterThr:42775 [router.py:message_loop():77] message_loop has been closed

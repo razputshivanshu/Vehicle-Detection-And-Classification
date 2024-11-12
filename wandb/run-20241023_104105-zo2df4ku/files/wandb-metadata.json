@@ -1,0 +1,44 @@
+{
+  "os":  "macOS-15.0.1-arm64-arm-64bit",
+  "python":  "3.11.3",
+  "startedAt":  "2024-10-23T05:11:05.487473Z",
+  "args":  [
+    "--img",
+    "640",
+    "--batch",
+    "16",
+    "--epochs",
+    "50",
+    "--data",
+    "dataset.yaml",
+    "--weights",
+    "yolov5m.pt"
+  ],
+  "program":  "/Users/shivanshuchauhan/Desktop/Vehicle-Detection-main/train.py",
+  "codePath":  "Desktop/Vehicle-Detection-main/train.py",
+  "git":  {
+    "remote":  "https://github.com/razputshivanshu/qr-code-generator.git",
+    "commit":  "c0a9e2665f7a1b724a1f27bcdd5c16fad147ea6c"
+  },
+  "email":  "razputshivanshu@gmail.com",
+  "root":  "/Users/shivanshuchauhan/Desktop/Vehicle-Detection-main",
+  "host":  "MacBookAir.lan",
+  "username":  "shivanshuchauhan",
+  "executable":  "/Users/shivanshuchauhan/anaconda3/bin/python",
+  "codePathLocal":  "train.py",
+  "cpu_count":  8,
+  "cpu_count_logical":  8,
+  "disk":  {
+    "/":  {
+      "total":  "245107195904",
+      "used":  "216359833600"
+    }
+  },
+  "memory":  {
+    "total":  "8589934592"
+  },
+  "cpu":  {
+    "count":  8,
+    "countLogical":  8
+  }
+}

@@ -1,0 +1,132 @@
+_wandb:
+    value:
+        cli_version: 0.18.3
+        m: []
+        python_version: 3.11.3
+        t:
+            "1":
+                - 1
+                - 2
+                - 3
+                - 41
+                - 49
+                - 55
+            "2":
+                - 1
+                - 2
+                - 3
+                - 41
+                - 49
+                - 55
+            "3":
+                - 16
+                - 23
+                - 55
+            "4": 3.11.3
+            "5": 0.18.3
+            "8":
+                - 5
+            "12": 0.18.3
+            "13": darwin-arm64
+adam:
+    value: false
+artifact_alias:
+    value: latest
+batch_size:
+    value: 16
+bbox_interval:
+    value: -1
+bucket:
+    value: ""
+cache:
+    value: null
+cfg:
+    value: ""
+data:
+    value: dataset.yaml
+device:
+    value: ""
+entity:
+    value: null
+epochs:
+    value: 50
+evolve:
+    value: null
+exist_ok:
+    value: false
+freeze:
+    value: 0
+hyp:
+    value:
+        anchor_t: 4
+        box: 0.05
+        cls: 0.5
+        cls_pw: 1
+        copy_paste: 0
+        degrees: 0
+        fl_gamma: 0
+        fliplr: 0.5
+        flipud: 0
+        hsv_h: 0.015
+        hsv_s: 0.7
+        hsv_v: 0.4
+        iou_t: 0.2
+        lr0: 0.01
+        lrf: 0.2
+        mixup: 0
+        momentum: 0.937
+        mosaic: 1
+        obj: 1
+        obj_pw: 1
+        perspective: 0
+        scale: 0.5
+        shear: 0
+        translate: 0.1
+        warmup_bias_lr: 0.1
+        warmup_epochs: 3
+        warmup_momentum: 0.8
+        weight_decay: 0.0005
+image_weights:
+    value: false
+imgsz:
+    value: 640
+label_smoothing:
+    value: 0
+linear_lr:
+    value: false
+local_rank:
+    value: -1
+multi_scale:
+    value: false
+name:
+    value: exp
+noautoanchor:
+    value: false
+nosave:
+    value: false
+noval:
+    value: false
+patience:
+    value: 30
+project:
+    value: runs/train
+quad:
+    value: false
+rect:
+    value: false
+resume:
+    value: false
+save_dir:
+    value: runs/train/exp14
+save_period:
+    value: -1
+single_cls:
+    value: false
+sync_bn:
+    value: false
+upload_dataset:
+    value: false
+weights:
+    value: yolov5m.pt
+workers:
+    value: 8

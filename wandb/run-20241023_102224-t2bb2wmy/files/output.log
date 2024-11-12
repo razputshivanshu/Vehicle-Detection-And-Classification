@@ -1,0 +1,69 @@
+/Users/shivanshuchauhan/Desktop/Vehicle-Detection-main/train.py:112: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  ckpt = torch.load(weights, map_location=device)  # load checkpoint
+Overriding model.yaml nc=80 with nc=5
+
+                 from  n    params  module                                  arguments
+  0                -1  1      5280  models.common.Conv                      [3, 48, 6, 2, 2]
+  1                -1  1     41664  models.common.Conv                      [48, 96, 3, 2]
+  2                -1  2     65280  models.common.C3                        [96, 96, 2]
+  3                -1  1    166272  models.common.Conv                      [96, 192, 3, 2]
+  4                -1  4    444672  models.common.C3                        [192, 192, 4]
+  5                -1  1    664320  models.common.Conv                      [192, 384, 3, 2]
+  6                -1  6   2512896  models.common.C3                        [384, 384, 6]
+  7                -1  1   2655744  models.common.Conv                      [384, 768, 3, 2]
+  8                -1  2   4134912  models.common.C3                        [768, 768, 2]
+  9                -1  1   1476864  models.common.SPPF                      [768, 768, 5]
+ 10                -1  1    295680  models.common.Conv                      [768, 384, 1, 1]
+ 11                -1  1         0  torch.nn.modules.upsampling.Upsample    [None, 2, 'nearest']
+ 12           [-1, 6]  1         0  models.common.Concat                    [1]
+ 13                -1  2   1182720  models.common.C3                        [768, 384, 2, False]
+ 14                -1  1     74112  models.common.Conv                      [384, 192, 1, 1]
+ 15                -1  1         0  torch.nn.modules.upsampling.Upsample    [None, 2, 'nearest']
+ 16           [-1, 4]  1         0  models.common.Concat                    [1]
+ 17                -1  2    296448  models.common.C3                        [384, 192, 2, False]
+ 18                -1  1    332160  models.common.Conv                      [192, 192, 3, 2]
+ 19          [-1, 14]  1         0  models.common.Concat                    [1]
+ 20                -1  2   1035264  models.common.C3                        [384, 384, 2, False]
+ 21                -1  1   1327872  models.common.Conv                      [384, 384, 3, 2]
+ 22          [-1, 10]  1         0  models.common.Concat                    [1]
+ 23                -1  2   4134912  models.common.C3                        [768, 768, 2, False]
+ 24      [17, 20, 23]  1     40410  models.yolo.Detect                      [5, [[10, 13, 16, 30, 33, 23], [30, 61, 62, 45, 59, 119], [116, 90, 156, 198, 373, 326]], [192, 384, 768]]
+/Users/shivanshuchauhan/anaconda3/lib/python3.11/site-packages/torch/functional.py:513: UserWarning: torch.meshgrid: in an upcoming release, it will be required to pass the indexing argument. (Triggered internally at /Users/runner/work/pytorch/pytorch/pytorch/aten/src/ATen/native/TensorShape.cpp:3610.)
+  return _VF.meshgrid(tensors, **kwargs)  # type: ignore[attr-defined]
+Model Summary: 369 layers, 20887482 parameters, 20887482 gradients, 48.3 GFLOPs
+
+Transferred 475/482 items from yolov5m.pt
+Scaled weight_decay = 0.0005
+[34m[1moptimizer:[0m SGD with parameter groups 79 weight, 82 weight (no decay), 82 bias
+[34m[1mtrain: [0mScanning 'Dataset/dataset-vehicles/labels/train.cache' images and labels... 1142 found, 54 [0m
+[34m[1mtrain: [0mWARNING: Ignoring corrupted image and/or label Dataset/dataset-vehicles/images/train/178.jpg: negative labels
+[34m[1mval: [0mScanning 'Dataset/dataset-vehicles/labels/val.cache' images and labels... 117 found, 0 missin[0m
+Plotting labels...
+
+[34m[1mautoanchor: [0mAnalyzing anchors... anchors/target = 4.93, Best Possible Recall (BPR) = 0.9997
+/Users/shivanshuchauhan/Desktop/Vehicle-Detection-main/train.py:258: FutureWarning: `torch.cuda.amp.GradScaler(args...)` is deprecated. Please use `torch.amp.GradScaler('cuda', args...)` instead.
+  scaler = amp.GradScaler(enabled=cuda)
+Image sizes 640 train, 640 val
+Using 8 dataloader workers
+Logging results to [1mruns/train/exp20[0m
+Starting training for 50 epochs...
+
+     Epoch   gpu_mem       box       obj       cls    labels  img_size
+  0%|                                                                      | 0/75 [00:00<?, ?it/s]/Users/shivanshuchauhan/Desktop/Vehicle-Detection-main/train.py:310: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  with amp.autocast(enabled=cuda):
+  0%|                                                                      | 0/75 [00:36<?, ?it/s]
+Traceback (most recent call last):
+  File "/Users/shivanshuchauhan/Desktop/Vehicle-Detection-main/train.py", line 611, in <module>
+    main(opt)
+  File "/Users/shivanshuchauhan/Desktop/Vehicle-Detection-main/train.py", line 509, in main
+    train(opt.hyp, opt, device)
+  File "/Users/shivanshuchauhan/Desktop/Vehicle-Detection-main/train.py", line 312, in train
+    loss, loss_items = compute_loss(pred, targets.to(device))  # loss scaled by batch_size
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/shivanshuchauhan/Desktop/Vehicle-Detection-main/utils/loss.py", line 121, in __call__
+    tcls, tbox, indices, anchors = self.build_targets(p, targets)  # targets
+                                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/shivanshuchauhan/Desktop/Vehicle-Detection-main/utils/loss.py", line 218, in build_targets
+    indices.append((b, a, gj.clamp_(0, gain[3] - 1), gi.clamp_(0, gain[2] - 1)))  # image, anchor, grid indices
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: result type Float can't be cast to the desired output type long long

@@ -1,0 +1,28 @@
+{"time":"2024-10-23T10:32:48.70309+05:30","level":"INFO","msg":"using version","core version":"0.18.3"}
+{"time":"2024-10-23T10:32:48.703169+05:30","level":"INFO","msg":"created symlink","path":"/Users/shivanshuchauhan/Desktop/Vehicle-Detection-main/wandb/run-20241023_103248-mlgcadw5/logs/debug-core.log"}
+{"time":"2024-10-23T10:32:48.707682+05:30","level":"ERROR","msg":"dialing: google: could not find default credentials. See https://cloud.google.com/docs/authentication/external/set-up-adc for more information"}
+{"time":"2024-10-23T10:32:48.716524+05:30","level":"INFO","msg":"created new stream","id":"mlgcadw5"}
+{"time":"2024-10-23T10:32:48.716574+05:30","level":"INFO","msg":"stream: started","id":"mlgcadw5"}
+{"time":"2024-10-23T10:32:48.716582+05:30","level":"INFO","msg":"writer: Do: started","stream_id":{"value":"mlgcadw5"}}
+{"time":"2024-10-23T10:32:48.716596+05:30","level":"INFO","msg":"sender: started","stream_id":{"value":"mlgcadw5"}}
+{"time":"2024-10-23T10:32:48.716627+05:30","level":"INFO","msg":"handler: started","stream_id":{"value":"mlgcadw5"}}
+{"time":"2024-10-23T10:32:49.761624+05:30","level":"INFO","msg":"wandb-core","!BADKEY":null}
+{"time":"2024-10-23T10:32:49.76433+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2024-10-23T10:32:59.873365+05:30","level":"ERROR","msg":"monitor: gpu: error sampling metrics: signal: trace/BPT trap"}
+{"time":"2024-10-23T10:33:09.879111+05:30","level":"ERROR","msg":"monitor: gpu: error sampling metrics: signal: trace/BPT trap"}
+{"time":"2024-10-23T10:33:19.876874+05:30","level":"ERROR","msg":"monitor: gpu: error sampling metrics: signal: trace/BPT trap"}
+{"time":"2024-10-23T10:33:29.877899+05:30","level":"ERROR","msg":"monitor: gpu: error sampling metrics: signal: trace/BPT trap"}
+{"time":"2024-10-23T10:33:40.856855+05:30","level":"ERROR","msg":"monitor: gpu: error sampling metrics: signal: trace/BPT trap"}
+{"time":"2024-10-23T10:33:50.414796+05:30","level":"ERROR","msg":"monitor: gpu: error sampling metrics: signal: trace/BPT trap"}
+{"time":"2024-10-23T10:34:01.102696+05:30","level":"ERROR","msg":"monitor: gpu: error sampling metrics: signal: trace/BPT trap"}
+{"time":"2024-10-23T10:34:10.837571+05:30","level":"ERROR","msg":"monitor: gpu: error sampling metrics: signal: trace/BPT trap"}
+{"time":"2024-10-23T10:34:20.195942+05:30","level":"ERROR","msg":"monitor: gpu: error sampling metrics: signal: trace/BPT trap"}
+{"time":"2024-10-23T10:34:30.19581+05:30","level":"ERROR","msg":"monitor: gpu: error sampling metrics: signal: trace/BPT trap"}
+{"time":"2024-10-23T10:34:30.519243+05:30","level":"INFO","msg":"stream: closing","id":"mlgcadw5"}
+{"time":"2024-10-23T10:34:30.520406+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2024-10-23T10:34:30.520551+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2024-10-23T10:34:32.896043+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2024-10-23T10:34:33.548788+05:30","level":"INFO","msg":"sender: closed","stream_id":{"value":"mlgcadw5"}}
+{"time":"2024-10-23T10:34:33.54877+05:30","level":"INFO","msg":"handler: closed","stream_id":{"value":"mlgcadw5"}}
+{"time":"2024-10-23T10:34:33.548783+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":{"value":"mlgcadw5"}}
+{"time":"2024-10-23T10:34:33.54897+05:30","level":"INFO","msg":"stream: closed","id":"mlgcadw5"}

@@ -1,0 +1,57 @@
+Downloading https://github.com/ultralytics/yolov5/releases/download/v7.0/yolov5m.pt to yolov5m.pt...
+100%|█████████████████████████████████████████████████████████| 40.8M/40.8M [02:19<00:00, 306kB/s]
+/Users/shivanshuchauhan/Desktop/Vehicle-Detection-main/train.py:112: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  ckpt = torch.load(weights, map_location=device)  # load checkpoint
+Overriding model.yaml nc=80 with nc=5
+
+                 from  n    params  module                                  arguments
+  0                -1  1      5280  models.common.Conv                      [3, 48, 6, 2, 2]
+  1                -1  1     41664  models.common.Conv                      [48, 96, 3, 2]
+  2                -1  2     65280  models.common.C3                        [96, 96, 2]
+  3                -1  1    166272  models.common.Conv                      [96, 192, 3, 2]
+  4                -1  4    444672  models.common.C3                        [192, 192, 4]
+  5                -1  1    664320  models.common.Conv                      [192, 384, 3, 2]
+  6                -1  6   2512896  models.common.C3                        [384, 384, 6]
+  7                -1  1   2655744  models.common.Conv                      [384, 768, 3, 2]
+  8                -1  2   4134912  models.common.C3                        [768, 768, 2]
+  9                -1  1   1476864  models.common.SPPF                      [768, 768, 5]
+ 10                -1  1    295680  models.common.Conv                      [768, 384, 1, 1]
+ 11                -1  1         0  torch.nn.modules.upsampling.Upsample    [None, 2, 'nearest']
+ 12           [-1, 6]  1         0  models.common.Concat                    [1]
+ 13                -1  2   1182720  models.common.C3                        [768, 384, 2, False]
+ 14                -1  1     74112  models.common.Conv                      [384, 192, 1, 1]
+ 15                -1  1         0  torch.nn.modules.upsampling.Upsample    [None, 2, 'nearest']
+ 16           [-1, 4]  1         0  models.common.Concat                    [1]
+ 17                -1  2    296448  models.common.C3                        [384, 192, 2, False]
+ 18                -1  1    332160  models.common.Conv                      [192, 192, 3, 2]
+ 19          [-1, 14]  1         0  models.common.Concat                    [1]
+ 20                -1  2   1035264  models.common.C3                        [384, 384, 2, False]
+ 21                -1  1   1327872  models.common.Conv                      [384, 384, 3, 2]
+ 22          [-1, 10]  1         0  models.common.Concat                    [1]
+ 23                -1  2   4134912  models.common.C3                        [768, 768, 2, False]
+ 24      [17, 20, 23]  1     40410  models.yolo.Detect                      [5, [[10, 13, 16, 30, 33, 23], [30, 61, 62, 45, 59, 119], [116, 90, 156, 198, 373, 326]], [192, 384, 768]]
+/Users/shivanshuchauhan/anaconda3/lib/python3.11/site-packages/torch/functional.py:513: UserWarning: torch.meshgrid: in an upcoming release, it will be required to pass the indexing argument. (Triggered internally at /Users/runner/work/pytorch/pytorch/pytorch/aten/src/ATen/native/TensorShape.cpp:3610.)
+  return _VF.meshgrid(tensors, **kwargs)  # type: ignore[attr-defined]
+Model Summary: 369 layers, 20887482 parameters, 20887482 gradients, 48.3 GFLOPs
+
+Transferred 475/482 items from yolov5m.pt
+Scaled weight_decay = 0.0005
+[34m[1moptimizer:[0m SGD with parameter groups 79 weight, 82 weight (no decay), 82 bias
+[34m[1mtrain: [0mScanning 'Dataset/dataset-vehicles/labels/train' images and labels...0 found, 1196 missing,[0m
+[34m[1mtrain: [0mWARNING: No labels found in Dataset/dataset-vehicles/labels/train.cache. See https://github.com/ultralytics/yolov5/wiki/Train-Custom-Data
+[34m[1mtrain: [0mWARNING: Cache directory Dataset/dataset-vehicles/labels is not writeable: [Errno 2] No such file or directory: 'Dataset/dataset-vehicles/labels/train.cache.npy'
+Traceback (most recent call last):
+  File "/Users/shivanshuchauhan/Desktop/Vehicle-Detection-main/train.py", line 611, in <module>
+    main(opt)
+  File "/Users/shivanshuchauhan/Desktop/Vehicle-Detection-main/train.py", line 509, in main
+    train(opt.hyp, opt, device)
+  File "/Users/shivanshuchauhan/Desktop/Vehicle-Detection-main/train.py", line 206, in train
+    train_loader, dataset = create_dataloader(train_path, imgsz, batch_size // WORLD_SIZE, gs, single_cls,
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/shivanshuchauhan/Desktop/Vehicle-Detection-main/utils/datasets.py", line 98, in create_dataloader
+    dataset = LoadImagesAndLabels(path, imgsz, batch_size,
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/shivanshuchauhan/Desktop/Vehicle-Detection-main/utils/datasets.py", line 418, in __init__
+    assert nf > 0 or not augment, f'{prefix}No labels in {cache_path}. Can not train without labels. See {HELP_URL}'
+           ^^^^^^
+AssertionError: [34m[1mtrain: [0mNo labels in Dataset/dataset-vehicles/labels/train.cache. Can not train without labels. See https://github.com/ultralytics/yolov5/wiki/Train-Custom-Data

@@ -17,7 +17,7 @@
 ## Installation
 
 ```sh
-git clone https://github.com/MaryamBoneh/Vehicle-Detection
+git clone https://github.com/razputshivanshu/Vehicle-Detection-And-Classification.git
 cd Vehicle-Detection
 pip install -r requirements.txt
 ```

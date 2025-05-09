@@ -77,3 +77,8 @@ https://b2n.ir/vehicleDataset
 3. Commit your changes (`git commit -am 'Add some fooBar'`)
 4. Push to the branch (`git push origin feature/fooBar`)
 5. Create a new Pull Request
+
+## Contributors
+
+<a href="https://github.com/username"><img src="https://avatars.githubusercontent.com/Sarthak-1729" width="50px;" alt="username"/><br /><sub><b>Sarthak-1729</b></sub></a>
+<a href="https://github.com/anotheruser"><img src="https://avatars.githubusercontent.com/razputshivanshu" width="50px;" alt="anotheruser"/><br /><sub><b>razputshivanshu</b></sub></a>

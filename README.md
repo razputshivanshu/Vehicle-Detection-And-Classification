@@ -80,5 +80,5 @@ https://b2n.ir/vehicleDataset
 
 ## Contributors
 
-<a href="https://github.com/username"><img src="https://avatars.githubusercontent.com/Sarthak-1729" width="50px;" alt="username"/><br /><sub><b>Sarthak-1729</b></sub></a>
-<a href="https://github.com/anotheruser"><img src="https://avatars.githubusercontent.com/razputshivanshu" width="50px;" alt="anotheruser"/><br /><sub><b>razputshivanshu</b></sub></a>
+<a href="https://github.com/Sarthak-1729"><img src="https://avatars.githubusercontent.com/Sarthak-1729" width="50px;" alt="username"/><br /><sub><b>Sarthak Shukla</b></sub></a>
+<a href="https://github.com/razputshivanshu"><img src="https://avatars.githubusercontent.com/razputshivanshu" width="50px;" alt="anotheruser"/><br /><sub><b>Shivanshu Chauhan</b></sub></a>
